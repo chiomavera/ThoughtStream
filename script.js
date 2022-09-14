@@ -4,6 +4,7 @@
  let quote = document.querySelector('.quote');
  let person = document.querySelector('.person');
 
+ // arrays of quotes
  const quotes = [
     {
         quote: '"Some fail to bear in mind that everyone is sentenced to death. Death is a treacherous virus that strikes randomly. The only truth is that nobody is going to make it out alive. We are all living on probation and our expiry date is indefinite. "',
@@ -193,48 +194,48 @@
     },
 
     {
-        quote: '""',
-        person: ""
+        quote: '"Change your life today. Don\'t gamble on the future, act now, without delay."',
+        person: "Simone de Beauvoir"
     },
 
     {
-        quote: '""',
-        person: ""
+        quote: '"Coming together is a beginning; keeping together is progress; working together is success."',
+        person: "Edward Everett Hale"
     },
 
     {
-        quote: '""',
-        person: ""
+        quote: '"God gave us the gift of life; it is up to us to give ourselves the gift of living well."',
+        person: "Voltaire"
     },
 
     {
-        quote: '""',
-        person: ""
+        quote: '"Ever tried. Ever failed. No matter. Try Again. Fail again. Fail better."',
+        person: "Samuel Beckett"
     },
 
     {
-        quote: '""',
-        person: ""
+        quote: '"There are two ways of spreading light: to be the candle or the mirror that reflects it."',
+        person: "Edith Wharton"
     },
 
     {
-        quote: '""',
-        person: ""
+        quote: '"A new command I give you: Love one another. As I have loved you, so you must love one another."',
+        person: "Jesus Christ"
     },
 
     {
-        quote: '""',
-        person: ""
+        quote: '"The best preparation for tomorrow is doing your best today."',
+        person: "H. Jackson Brown, Jr."
     },
 
     {
-        quote: '""',
-        person: ""
+        quote: '"Honesty is the first chapter in the book of wisdom."',
+        person: "Thomas Jefferson"
     },
 
     {
-        quote: '""',
-        person: ""
+        quote: '"There is only one corner of the universe you can be certain of improving, and that\'s your own self."',
+        person: "Aldous Huxley"
     },
 
     {
@@ -309,13 +310,14 @@
 
  ];
 
- function changeQuote(){
+ /**creating and initializing the click event to change the quote
+ every time the button is clicked
+ */
+
+ btn.addEventListener('click', () => {
     let randomQuote = Math.floor(Math.random() * quotes.length);
 
     quote.innerText = quotes[randomQuote].quote;
     person.innerText = quotes[randomQuote].person;
-
- }
-
- btn.addEventListener('click', changeQuote)
+ });
  
