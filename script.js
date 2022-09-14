@@ -168,6 +168,91 @@
     },
 
     {
+        quote: '"Love has no age, no limit; and no death."',
+        person: "John Galsworthy"
+    },
+
+    {
+        quote: '"Happiness can exist only in acceptance."',
+        person: "George Orwell"
+    },
+
+    {
+        quote: '"Happiness can exist only in acceptance."',
+        person: "George Orwell"
+    },
+
+    {
+        quote: '"Being entirely honest with oneself is a good exercise."',
+        person: "Sigmund Freud"
+    },
+
+    {
+        quote: '"Keep your face always toward the sunshine - and shadows will fall behind you."',
+        person: "Walt Whitman"
+    },
+
+    {
+        quote: '""',
+        person: ""
+    },
+
+    {
+        quote: '""',
+        person: ""
+    },
+
+    {
+        quote: '""',
+        person: ""
+    },
+
+    {
+        quote: '""',
+        person: ""
+    },
+
+    {
+        quote: '""',
+        person: ""
+    },
+
+    {
+        quote: '""',
+        person: ""
+    },
+
+    {
+        quote: '""',
+        person: ""
+    },
+
+    {
+        quote: '""',
+        person: ""
+    },
+
+    {
+        quote: '""',
+        person: ""
+    },
+
+    {
+        quote: '""',
+        person: ""
+    },
+
+    {
+        quote: '""',
+        person: ""
+    },
+
+    {
+        quote: '""',
+        person: ""
+    },
+
+    {
         quote: '""',
         person: ""
     },
