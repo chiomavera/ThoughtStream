@@ -239,74 +239,61 @@
     },
 
     {
-        quote: '""',
-        person: ""
-    },
-
+        quote:"There are no traffic jams along the extra mile.",
+        person:"Roger Staubach"},
     {
-        quote: '""',
-        person: ""
-    },
-
+        quote:"It is never too late to be what you might have been.",
+        person:"George Eliot"},
     {
-        quote: '""',
-        person: ""
-    },
-
+        quote:"You become what you believe.",
+        person:"Oprah Winfrey"},
     {
-        quote: '""',
-        person: ""
-    },
-
+        quote:"I would rather die of passion than of boredom.",
+        person:"Vincent van Gogh"},
     {
-        quote: '""',
-        person: ""
-    },
-
+        quote:"A truly rich man is one whose children run into his arms when his hands are empty.",
+        person:"Unknown"},
     {
-        quote: '""',
-        person: ""
-    },
-
+        quote:"It is not what you do for your children, but what you have taught them to do for themselves, that will make them successful human beings.",
+        person:"Ann Landers"},
     {
-        quote: '""',
-        person: ""
-    },
-
+        quote:"If you want your children to turn out well, spend twice as much time with them, and half as much money.",
+        person:"Abigail Van Buren"},
     {
-        quote: '""',
-        person: ""
-    },
-
+        quote:"Build your own dreams, or someone else will hire you to build theirs.",
+        person:"Farrah Gray"},
     {
-        quote: '""',
-        person: ""
-    },
-
+        quote:"The battles that count aret the ones for gold medals. The struggles within yourself, the invisible battles inside all of us that is where it is at.",
+        person:"Jesse Owens"},
     {
-        quote: '""',
-        person: ""
+        quote:"Education costs money.  But then so does ignorance.",
+        person:"Sir Claus Moser"
     },
-
     {
-        quote: '""',
-        person: ""
+        quote:"I have learned over the years that when ones mind is made up, this diminishes fear.",
+        person:"Rosa Parks"
     },
-
     {
-        quote: '""',
-        person: ""
+        quote:"It does not matter how slowly you go as long as you do not stop.",
+        person:"Confucius"
     },
-
     {
-        quote: '""',
-        person: ""
+        quote:"If you look at what you have in life, you will always have more. If you look at what you dont have in life, you will never have enough.",
+        person:"Oprah Winfrey"
     },
-
     {
-        quote: '""',
-        person: ""
+        quote:"Remember that not getting what you want is sometimes a wonderful stroke of luck.",
+        person:"Dalai Lama"
     },
+    {
+        quote:"You cannot use up creativity.  The more you use, the more you have.",
+        person:"Maya Angelou"
+    },
+    {
+        quote:"Dream big and dare to fail.",
+        person:"Norman Vaughan"
+    }
+ 
 
  ];
 
