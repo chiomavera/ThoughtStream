@@ -9,7 +9,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     text-align: center;
     background-color: bisque;
 }
@@ -23,7 +23,7 @@ body{
     background-color: rgb(41, 40, 40);
     color: #fff;
     width: 80%;
-    margin: 10px auto;
+    margin: 50px  auto 10px;
     padding: 5px;
     border: 2px solid #eee;
     border-radius: 0 10px;
