@@ -9,7 +9,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     text-align: center;
     background-color: bisque;
 }
@@ -62,4 +62,10 @@ body{
 
 button:active{
     background-color: lightblue;
+}
+
+@media (max-width: 500px){
+    .container{
+        width: 80%;
+    }
 }
