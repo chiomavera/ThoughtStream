@@ -23,7 +23,7 @@ body{
     background-color: rgb(41, 40, 40);
     color: #fff;
     width: 80%;
-    margin: 20px auto;
+    margin: 10px auto;
     padding: 5px;
     border: 2px solid #eee;
     border-radius: 0 10px;
@@ -64,7 +64,7 @@ button:active{
     background-color: lightblue;
 }
 
-@media (max-width: 500px){
+@media (max-width: 600px){
     .container{
         width: 80%;
     }
