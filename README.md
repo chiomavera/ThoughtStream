@@ -1,6 +1,6 @@
-﻿# Random-quote-generator
+﻿# ThoughtStream
  
-**This is my pet project, a website that generates random quotes.**
+**A web application that displays random quotes to motivate, inspire, entertain and educate users.**
 
 *I designed and implemented it using HTML, CSS, and JavaScript.*
 
