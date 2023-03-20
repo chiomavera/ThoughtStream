@@ -5,11 +5,14 @@
     font-family: 'Roboto', sans-serif; 
 }
 
+.a{
+    text-decoration: none;
+}
+
 body{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* min-height: 100vh; */
     text-align: center;
     background-color: bisque;
 }
@@ -22,12 +25,30 @@ body{
 .heading{
     background-color: rgb(41, 40, 40);
     color: #fff;
-    width: 80%;
+    width: 100%;
     margin: 50px  auto 10px;
     padding: 5px;
     border: 2px solid #eee;
     border-radius: 0 10px;
 }
+
+.description{
+    margin-bottom: 2rem;
+}
+
+/* .quote-search{
+    margin-bottom: 2rem;
+    background-color: bisque;
+    padding: 0.75rem 1rem;
+    border-radius: 30px;
+    border: 2px solid #5c5b5b;
+    width: 100%;
+}
+
+.quote-search:focus{
+    outline: none;
+    border: 2px solid rgb(118, 118, 252);
+} */
 
 .main-content{
     background-color: #eee;
@@ -37,6 +58,7 @@ body{
     width: 100%;
     height: auto;
     box-shadow: 0 0 10px;
+    margin-bottom: 9rem;
 }
 
 .quote{
@@ -45,7 +67,8 @@ body{
 }
 
 .person{
-    color: red;
+    color: blue;
+    color: rgb(151, 13, 13);
     font-size: 1.5rem;
     margin-top: 20px;
     text-transform: uppercase;
@@ -53,16 +76,43 @@ body{
 
 .button{
     padding: 5px 10px;
-    background-color: rgb(41, 40, 40);
-    color: #fff;
+    border: 2px solid rgb(41, 40, 40);
+    color: #000;
     border-radius: 5px;
     margin-top: 20px;
     font-size: 1.3rem;
+    cursor: pointer;
+}
+
+button:hover{
+    outline: none;
+    border: 2px solid rgb(71, 71, 252);
+}
+
+button:focus{
+    outline: none;
+    border: 2px solid rgb(71, 71, 252);
 }
 
 button:active{
-    background-color: lightblue;
+    background-color: rgb(41, 40, 40);
+    color: #fff;
+    border: none;
 }
+
+.socials{
+    color: rgb(151, 13, 13);
+    margin-top: 1.5rem;
+}
+
+.socials:hover{
+    color: rgb(71, 71, 252);
+}
+
+.love{
+    color: red;
+}
+
 
 @media (max-width: 600px){
     .container{
