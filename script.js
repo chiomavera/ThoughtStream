@@ -1,8 +1,40 @@
-//variables
+//variables declaration and initialization
 
-let btn = document.querySelector("#new-quote");
-let quote = document.querySelector(".quote");
-let person = document.querySelector(".person");
+const btn = document.querySelector("#new-quote");
+const quote = document.querySelector(".quote");
+const person = document.querySelector(".person");
+// const searchInput = document.querySelector("#searchInput");
+// const quotesList = [ ]
+
+// Event Listeners
+
+// Add event listener to button that generates new quote when trigged
+btn.addEventListener("click", () => {
+  let randomQuote = Math.floor(Math.random() * quotes.length);
+
+  quote.innerText = quotes[randomQuote].quote;
+  person.innerText = quotes[randomQuote].person;
+});
+
+// // Add an event listener to the input field that filters the quotes based on the input value
+// searchInput.addEventListener("input", (e) => {
+//   // Get Input
+//   const searchString = e.target.value.toLowerCase();
+//   // filter the quotes based on the input value
+//   const filteredQuotes = quotes.filter((quote) => {
+//     return (
+//       quote.quote.toLowerCase().includes(searchString) ||
+//       quote.person.toLowerCase().includes(searchString)
+//     );
+//   });
+//   // Map the filtered quotes to an array of HTML elements
+//   const filteredQuotesHTML = filteredQuotes.map((quote) => {
+  
+//   });
+
+//   // Display the filtered quotes
+//   quotesList.innerHTML = filteredQuotesHTML.join("");
+// });
 
 // arrays of quotes
 const quotes = [
@@ -43,7 +75,7 @@ const quotes = [
 
   {
     quote:
-      '"Your time is limited, so don\'t waste it living someone else\'s life."',
+      "\"Your time is limited, so don't waste it living someone else's life.\"",
     person: "Steve Jobs",
   },
 
@@ -55,7 +87,7 @@ const quotes = [
 
   {
     quote:
-      '"If you look at what you have in life, you\'ll always have more. If you look at what you don\'t have in life, you\'ll never have enough."',
+      "\"If you look at what you have in life, you'll always have more. If you look at what you don't have in life, you'll never have enough.\"",
     person: "Oprah Winfrey",
   },
 
@@ -176,7 +208,7 @@ const quotes = [
 
   {
     quote:
-      '"Work like you don\'t need the money. Love like you\'ve never been hurt. Dance like nobody\'s watching."',
+      "\"Work like you don't need the money. Love like you've never been hurt. Dance like nobody's watching.\"",
     person: "Satchel Paige",
   },
 
@@ -207,7 +239,8 @@ const quotes = [
   },
 
   {
-    quote: '"Keep your face always toward the sunshine - and shadows will fall behind you."',
+    quote:
+      '"Keep your face always toward the sunshine - and shadows will fall behind you."',
     person: "Walt Whitman",
   },
 
@@ -280,7 +313,8 @@ const quotes = [
     person: "Vincent van Gogh",
   },
   {
-    quote: '"A truly rich man is one whose children run into his arms when his hands are empty."',
+    quote:
+      '"A truly rich man is one whose children run into his arms when his hands are empty."',
     person: "Unknown",
   },
   {
@@ -294,7 +328,8 @@ const quotes = [
     person: "Abigail Van Buren",
   },
   {
-    quote: '"Build your own dreams, or someone else will hire you to build theirs."',
+    quote:
+      '"Build your own dreams, or someone else will hire you to build theirs."',
     person: "Farrah Gray",
   },
   {
@@ -307,7 +342,8 @@ const quotes = [
     person: "Sir Claus Moser",
   },
   {
-    quote: '"I have learned over the years that when ones mind is made up, this diminishes fear."',
+    quote:
+      '"I have learned over the years that when ones mind is made up, this diminishes fear."',
     person: "Rosa Parks",
   },
   {
@@ -315,11 +351,13 @@ const quotes = [
     person: "Confucius",
   },
   {
-    quote: '"If you look at what you have in life, you will always have more. If you look at what you don\'t have in life, you will never have enough."',
+    quote:
+      '"If you look at what you have in life, you will always have more. If you look at what you don\'t have in life, you will never have enough."',
     person: "Oprah Winfrey",
   },
   {
-    quote: '"Remember that not getting what you want is sometimes a wonderful stroke of luck."',
+    quote:
+      '"Remember that not getting what you want is sometimes a wonderful stroke of luck."',
     person: "Dalai Lama",
   },
   {
@@ -338,58 +376,58 @@ const quotes = [
     person: "James Clear",
   },
   {
-    quote:'"Attitude is a choice. Happiness is a choice. Optimism is a choice. Kindness is a choice. Giving is a choice. Respect is a choice. Whatever choice you make makes you. Choose wisely."',
-    person:"Roy T. Bennett"
-},
-{
-    quote:'"Don\'t be pushed around by the fears in your mind. Be led by the dreams in your heart."',
-    person:" Roy T. Bennett"
-},
-{
-    quote:'"Believe in yourself. You are braver than you think, more talented than you know, and capable of more than you imagine."',
-    person:" Roy T. Bennett"
-},
-{
-    quote:'"The truth is, unless you let go, unless you forgive yourself, unless you forgive the situation, unless you realize that the situation is over, you cannot move forward."',
-    person:"Steve Maraboli"
-},
-{
-    quote:'"Live the Life of Your Dreams: Be brave enough to live the life of your dreams according to your vision and purpose instead of the expectations and opinions of others."',
-    person:"Roy T. Bennett"
-},
-{
-    quote:'"Success is not how high you have climbed, but how you make a positive difference to the world."',
-    person:"Roy T. Bennett"
-},
-{
-    quote:'"Everything can be taken from a man but one thing: the last of the human freedoms—to choose one\'s attitude in any given set of circumstances, to choose one’s own way."',
-    person:"Viktor E. Frankl"
-},
-{
-    quote:"Letting go means to come to the realization that some people are a part of your history, but not a part of your destiny.",
-    person:"Steve Maraboli"
-},
-{
-    quote:'"It\'s not how much we have, but how much we enjoy, that makes happiness."',
-    person:"Charles Spurgeon"
-},
-{
-    quote:"There are many opportunities every single day and Monday is a perfect opportunity to size them all.",
-    person:"Steve Maraboli"
-},
-{
-    quote:'"trust in the Lord with all your heart and lean not in your own understanding."',
-    person:"Proverbs 3:5"
-},
+    quote:
+      '"Attitude is a choice. Happiness is a choice. Optimism is a choice. Kindness is a choice. Giving is a choice. Respect is a choice. Whatever choice you make makes you. Choose wisely."',
+    person: "Roy T. Bennett",
+  },
+  {
+    quote:
+      '"Don\'t be pushed around by the fears in your mind. Be led by the dreams in your heart."',
+    person: " Roy T. Bennett",
+  },
+  {
+    quote:
+      '"Believe in yourself. You are braver than you think, more talented than you know, and capable of more than you imagine."',
+    person: " Roy T. Bennett",
+  },
+  {
+    quote:
+      '"The truth is, unless you let go, unless you forgive yourself, unless you forgive the situation, unless you realize that the situation is over, you cannot move forward."',
+    person: "Steve Maraboli",
+  },
+  {
+    quote:
+      '"Live the Life of Your Dreams: Be brave enough to live the life of your dreams according to your vision and purpose instead of the expectations and opinions of others."',
+    person: "Roy T. Bennett",
+  },
+  {
+    quote:
+      '"Success is not how high you have climbed, but how you make a positive difference to the world."',
+    person: "Roy T. Bennett",
+  },
+  {
+    quote:
+      '"Everything can be taken from a man but one thing: the last of the human freedoms—to choose one\'s attitude in any given set of circumstances, to choose one’s own way."',
+    person: "Viktor E. Frankl",
+  },
+  {
+    quote:
+      "Letting go means to come to the realization that some people are a part of your history, but not a part of your destiny.",
+    person: "Steve Maraboli",
+  },
+  {
+    quote:
+      '"It\'s not how much we have, but how much we enjoy, that makes happiness."',
+    person: "Charles Spurgeon",
+  },
+  {
+    quote:
+      "There are many opportunities every single day and Monday is a perfect opportunity to size them all.",
+    person: "Steve Maraboli",
+  },
+  {
+    quote:
+      '"trust in the Lord with all your heart and lean not in your own understanding."',
+    person: "Proverbs 3:5",
+  },
 ];
-
-/**creating and initializing the click event to change the quote
- every time the button is clicked
- */
-
-btn.addEventListener("click", () => {
-  let randomQuote = Math.floor(Math.random() * quotes.length);
-
-  quote.innerText = quotes[randomQuote].quote;
-  person.innerText = quotes[randomQuote].person;
-});
