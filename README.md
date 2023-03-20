@@ -9,4 +9,4 @@ The convenience of being able to easily access motivating quotes whenever I want
 
 One improvement I would like to make in the future is to consume APIs that already have a variety of quotes, instead of collecting and storing them in an array, as this would be more time-efficient."
 
-Interact with it [here](https://chiomavera.github.io/random-quote-generator/)
+Interact with it [here](https://chiomavera.github.io/ThoughtStream/)
