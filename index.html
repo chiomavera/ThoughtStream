@@ -1,44 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Random Quote Generator</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A web application that displays random quotes to motivate, inspire, entertain and educate users."
+    />
+    <title>ThoughtStream</title>
 
     <!-- google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="styles.css">
-</head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<body>
-
+  <body>
     <!-- Random Quote Generator -->
     <div class="container">
-        <div class="heading">
-            <h2>JavaScript Quote Generator</h2>
+      <header>
+        <div>
+          <h2 class="heading">Unleash Your Inspiration</h2>
+          <p class="description">
+            <i><b>Get a Random Quote for Every Mood and Occasion!</b></i>
+          </p>
         </div>
 
-        <div class="main-content">
-            <p class="quote">
-                <q>I'm unpredictable, I never know where I'm going until I get there, I'm so random, I'm always
-                    growing, learning, changing, I'm never the same person twice. But one thing you can be sure of about
-                    me; is I will always do exactly what I want to do.</q>
-            </p>
-            <p class="person">C. JoyBell C.</p>
+        <!-- <div>
+            <input type="text" id="searchInput" aria-label="quote search" 
+            placeholder="Search by person or term" title="Type in a category" class="quote-search" />
+          </div> -->
+      </header>
 
-            <button class="button" id="new-quote">New Quote</button>
-        </div>
+      <div class="main-content">
+        <p class="quote">
+          <q
+            >I'm unpredictable, I never know where I'm going until I get there,
+            I'm so random, I'm always growing, learning, changing, I'm never the
+            same person twice. But one thing you can be sure of about me; is I
+            will always do exactly what I want to do.</q
+          >
+        </p>
+        <p class="person">C. JoyBell C.</p>
+
+        <button class="button" id="new-quote" aria-label="new quote" autofocus>
+          New Quote
+        </button>
+      </div>
+      <footer>
+        <p>
+            <span>Copyright &copy; 2023.</span>
+            <span>Made with <span class="love">❤</span> by vera</span>
+        </p>
+        <nav>
+          <a
+            href="https://twitter.com/nkanmuo_vera"
+            target="_blank"
+            class="socials"
+            aria-label="twitter"
+            ><i class="fa-brands fa-twitter" role="link" aria-label="twitter" ></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/chioma-vera-nkanmuo/"
+            target="_blank"
+            class="socials"
+            aria-label="linkedin"
+            ><i class="fa-brands fa-linkedin" role="link" aria-label="linkedin"></i
+          ></a>
+          <a
+            href="https://github.com/chiomavera/"
+            class="socials"
+            target="_blank"
+            aria-label="github"
+            ><i class="fa-brands fa-github" role="link" aria-label="github"></i
+          ></a>
+        </nav>
+      </footer>
     </div>
 
-
     <!-- FontAwesome -->
-    <script src="https://kit.fontawesome.com/47ff7ea1ff.js" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
-</body>
-
+    <script
+      defer
+      src="https://kit.fontawesome.com/47ff7ea1ff.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="script.js"></script>
+  </body>
 </html>
